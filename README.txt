@@ -40,3 +40,5 @@ Fetcher Machines
 	d-dgd7j02
 	d-dgf9j02
 	machine1081
+
+4. In case if you are using "HDP 2.3.4", which has different tez where the log file format changed, you need to uncomment a line in the source code and run "mvn clean package". This is mentioned in the source code.
